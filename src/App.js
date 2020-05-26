@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1> My Personal Portfolio </h1>
       <h2> Rachel Tieu </h2>
-      <img src={profileImage} alt="profile.image" />
+      <img src={profileImage} alt="profile-image" />
     </div>
 
   );
