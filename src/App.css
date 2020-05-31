@@ -3,7 +3,7 @@
 }
 
 /* body{
-  background-color: white;
+  background-color: pink;
 } */
 
 .App-logo {
@@ -30,6 +30,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
 }
 
 @keyframes App-logo-spin {
