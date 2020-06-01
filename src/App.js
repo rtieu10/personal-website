@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-//import profileImage from './img/headshot.jpg';   //importing image to be used on webpage
+import avatar from './img/avatar.PNG';   //importing image to be used on webpage
 import './App.css';
 import Portfolio from './components/portfolio'   //the portfolio React component
 
@@ -43,11 +43,11 @@ function App() {
   //     <li> <a href="contactme.asp"> Contact Me </a> </li>
   //   </ul>
   // </div>
-
+<body>
 <div className="Portfolio">
   <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
            <div className="container">
-               <a className="navbar-brand js-scroll-trigger" href="#page-top">Rachel Tieu</a><button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i className="fa fa-bars"></i></button>
+               <a className="navbar-brand js-scroll-trigger" href="#page-top"></a><button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i className="fa fa-bars"></i></button>
                <div className="collapse navbar-collapse" id="navbarResponsive">
                    <ul className="navbar-nav ml-auto">
                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
@@ -60,7 +60,7 @@ function App() {
 
        <header className="masthead bg-primary text-white text-center">
                <div className="container d-flex align-items-center flex-column">
-                   <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+                   <img className="masthead-avatar mb-5" src= {avatar} alt="" />
                    <h1 className="masthead-heading text-uppercase mb-0">Rachel Tieu</h1>
                    <div className="divider-custom divider-light">
                        <div className="divider-custom-line"></div>
@@ -68,7 +68,23 @@ function App() {
                        <div className="divider-custom-line"></div>
                    </div>
                    <p className="masthead-subheading font-weight-light mb-0">Programmer - Teaching Assistant - Aspiring Designer</p>
+                   <br/>
+                   <br/>
                </div>
+               <div class="row mt-2">
+                  <div class="col-md-4 text-center">
+                    <a class="mx-3 c-nav-link btn btn-dark btn-lg text-center pl-3"> Resume </a>
+                  </div>
+
+                  <div class="col-md-4 text-center">
+                    <a class="mx-3 c-nav-link btn btn-dark btn-lg text-center pl-3" href="https://github.com/rtieu10"> Github </a>
+                  </div>
+
+                  <div class="col-md-4 text-center">
+                    <a class="mx-3 c-nav-link btn btn-dark btn-lg text-center pl-3" href="https://www.linkedin.com/in/racheltieu/"> Linkedin </a>
+                  </div>
+               </div>
+
            </header>
 
 
@@ -88,16 +104,14 @@ function App() {
                    <div className="col-lg-4 mr-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
                </div>
 
-               <div className="text-center mt-4">
-                   <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i className="fa fa-download mr-2"></i>Free Download!</a>
-               </div>
+
            </div>
        </section>
 
 
        <Portfolio portfolioLinks={portfolioLinks}> </Portfolio>
 
-       <section className="page-section" id="contact">
+       <section className="page-section" id="contact">   //tryng to fix the heihgt of the section
            <div className="container">
 
                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
@@ -109,37 +123,9 @@ function App() {
                </div>
 
                <div className="row">
-                   <div className="col-lg-8 mx-auto">
-
-                       <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                           <div className="control-group">
-                               <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                   <label>Name</label><input className="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                   <p className="help-block text-danger"></p>
-                               </div>
-                           </div>
-                           <div className="control-group">
-                               <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                   <label>Email Address</label><input className="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                   <p className="help-block text-danger"></p>
-                               </div>
-                           </div>
-                           <div className="control-group">
-                               <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                   <label>Phone Number</label><input className="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                   <p className="help-block text-danger"></p>
-                               </div>
-                           </div>
-                           <div className="control-group">
-                               <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                   <label>Message</label><textarea className="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                   <p className="help-block text-danger"></p>
-                               </div>
-                           </div>
-                           <br />
-                           <div id="success"></div>
-                           <div className="form-group"><button className="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                       </form>
+                   <div className="col-lg-12 text-center">
+                       <p style={{fontSize: '25px'}}> Email: rachel.tieu02@myhunter.cuny.edu </p>
+                       <p style={{fontSize: '25px'}}> Cell: 718-683-2011 </p>
                    </div>
                </div>
            </div>
@@ -167,7 +153,7 @@ function App() {
                            <div className="row justify-content-center">
                                <div className="col-lg-8">
 
-                                   <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                   <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">{ portfolioLinks.title }</h2>
 
                                    <div className="divider-custom">
                                        <div className="divider-custom-line"></div>
@@ -330,9 +316,7 @@ function App() {
            </div>
        </div>
       </div>
-
-
-
+    </body>
   );
 }
 
