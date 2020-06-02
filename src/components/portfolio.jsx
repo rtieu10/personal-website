@@ -5,10 +5,10 @@ import React from 'react'
 export default ({portfolioLinks}) => {
   return (
 
-    <section className="page-section portfolio bg-primary" id="portfolio">
+    <section className="portfolio-section portfolio bg-primary" id="portfolio">
         <div className="container">
 
-            <h2 className="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+            <h2 className="portfolio-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
 
             <div className="divider-custom divider-light">
                 <div className="divider-custom-line"></div>
@@ -37,7 +37,7 @@ export default ({portfolioLinks}) => {
                       </div>
                   </div>
 
-    
+
                 )
 
 

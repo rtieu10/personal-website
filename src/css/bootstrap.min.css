@@ -4411,6 +4411,11 @@ input[type=button].btn-block {
   border-top: 0;
 }
 
+.header-photo{
+  width:320px;
+  height:80px;
+}
+
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
@@ -10013,6 +10018,50 @@ h3 {
   }
 }
 
+
+/* PORTFOLIO SECTION */
+.portfolio-section {
+  padding: 6rem 0;
+  padding-bottom: 2rem;
+}
+.portfolio-section .portfolio-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-section .portfolio-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+
+/* CONTACT SECTION  */
+.contact-section {
+  padding: 2rem 0;
+  padding-bottom: 1rem
+}
+.contact-section .contact-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .contact-section .contact-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* brings the user 100px above the title */
+#about {
+  scroll-margin-top: 120px;
+}
+
+#portfolio{
+  scroll-margin-top: 120px;
+}
+
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -10145,16 +10194,17 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 25rem;
+  display:block;
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(4rem + 104px);
+    padding-bottom: 5rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
-    line-height: 3.5rem;
+    line-height: 2.75rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;

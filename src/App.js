@@ -1,6 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
+import header from './img/header.png';
 import avatar from './img/avatar.PNG';   //importing image to be used on webpage
+import resume from './components/Rachel_Tieu-resume.pdf'
 import './App.css';
 import Portfolio from './components/portfolio'   //the portfolio React component
 
@@ -47,11 +49,13 @@ function App() {
 <div className="Portfolio">
   <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
            <div className="container">
-               <a className="navbar-brand js-scroll-trigger" href="#page-top"></a><button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i className="fa fa-bars"></i></button>
+               <a className="navbar-brand js-scroll-trigger" href="#page-top">
+                  <img className="header-photo" src={ header } alt=""/>
+               </a><button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i className="fa fa-bars"></i></button>
                <div className="collapse navbar-collapse" id="navbarResponsive">
                    <ul className="navbar-nav ml-auto">
-                       <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                       <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                    </ul>
                </div>
@@ -73,7 +77,7 @@ function App() {
                </div>
                <div class="row mt-2">
                   <div class="col-md-4 text-center">
-                    <a class="mx-3 c-nav-link btn btn-dark btn-lg text-center pl-3"> Resume </a>
+                    <a class="mx-3 c-nav-link btn btn-dark btn-lg text-center pl-3" href={resume} download> Resume </a>
                   </div>
 
                   <div class="col-md-4 text-center">
@@ -111,10 +115,10 @@ function App() {
 
        <Portfolio portfolioLinks={portfolioLinks}> </Portfolio>
 
-       <section className="page-section" id="contact">   //tryng to fix the heihgt of the section
+       <section className="contact-section" id="contact">
            <div className="container">
 
-               <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+               <h2 className="contact-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
 
                <div className="divider-custom">
                    <div className="divider-custom-line"></div>
@@ -124,8 +128,8 @@ function App() {
 
                <div className="row">
                    <div className="col-lg-12 text-center">
-                       <p style={{fontSize: '25px'}}> Email: rachel.tieu02@myhunter.cuny.edu </p>
-                       <p style={{fontSize: '25px'}}> Cell: 718-683-2011 </p>
+                       <p style={{fontSize: '22px'}}> Email: rachel.tieu02@myhunter.cuny.edu </p>
+                       <p style={{fontSize: '22px'}}> Cell: 718-683-2011 </p>
                    </div>
                </div>
            </div>
