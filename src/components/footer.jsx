@@ -14,7 +14,7 @@ class Footer extends React.Component{
                  <i class="fab fa-linkedin-in fa-lg"></i>
              </a>
 
-             <a className="btn btn-outline-light btn-social mx-1" href="malito:rachel.tieu02@myhunter.cuny.edu">
+             <a className="btn btn-outline-light btn-social mx-1" href="mailto:rachel.tieu02@myhunter.cuny.edu">
                  <i class="far fa-envelope fa-lg"></i>
              </a>
 
