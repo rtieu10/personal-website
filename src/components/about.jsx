@@ -15,8 +15,11 @@ class About extends React.Component{
               </div>
 
               <div className="row">
-                  <div className="col-lg-4 ml-auto"><p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                  <div className="col-lg-4 mr-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                  <div className="col-lg-4 ml-auto"><p className="lead"> I am Rachel Tieu, a rising junior at Hunter College. I am majoring in Computer Science, and planning on minoring in Mathematics. This summer I will be participating in the New Technologists Program at Microsoft.
+                                                                         I am currently participating in the
+                                                                         <a href= "https://www.thewitproject.com/"> WiT Project </a> to build a web application for YearUp, a non-profit organization, using Python and its frameworks such as Django. </p></div>
+                  <div className="col-lg-4 mr-auto"><p className="lead"> Alongside technology, I am also passionate about non-profit work and using technology for social good. Outside of school, I volunteer as a teaching assistant through <a href="https://www.microsoft.com/en-us/teals"> TEALS</a>, a Microsoft philanthropies program.
+                                                                         I am passionate about increasing diveristy in the field of technology. I belive technology is powerful and has the ability to amplify the voices underrepresented groups. </p></div>
               </div>
 
 

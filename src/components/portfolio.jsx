@@ -18,12 +18,13 @@ export default ({portfolioLinks}) => {
 
             <div className="row">
               {
-                portfolioLinks && portfolioLinks.map(({title, subtitle, description, imgsrc, copyright}, index) =>      //passing our portfolio prop correctly
+                portfolioLinks && portfolioLinks.map(({title, subtitle, description, imgsrc, copyright, project_link}, index) =>      //passing our portfolio prop correctly
                   //one portfolio prop
                   <div className="col-md-6 col-lg-4 mb-5">
                       <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal">
                           <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                              <div className="portfolio-item-caption-content text-center text-white"><i className="fa fa-plus fa-3x"></i></div>
+                            
+                              <div className="portfolio-item-caption-content text-center text-white"> <p> { description } </p>  <a href={project_link}> View Project </a> </div>
                           </div>
 
                           <div className="portfolio-caption">
@@ -31,7 +32,6 @@ export default ({portfolioLinks}) => {
 
                             <h4> { title } </h4>
                             <p className="text-muted"> { subtitle } </p>
-                            <p> { description } </p>
                             <p> {copyright} </p>
                           </div>
                       </div>
