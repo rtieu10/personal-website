@@ -70,6 +70,7 @@ body {
   overflow-x:hidden;
 }
 
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -6107,7 +6108,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #d30c7b !important;
 }
 
 .bg-secondary {
@@ -9775,7 +9776,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-light {
-  font-weight: 300 !important;
+  font-weight: 500 !important;
 }
 
 .font-weight-lighter {
