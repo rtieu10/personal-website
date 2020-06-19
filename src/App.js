@@ -42,7 +42,7 @@ function App() {
     {
       title: 'Super 1665',
       subtitle: 'React, JavaScript, HTML, CSS',
-      imgsrc : "https://image.flaticon.com/icons/svg/2912/2912600.svg",
+      imgsrc : "https://image.flaticon.com/icons/png/512/2912/2912657.png",
       description: <div> A website created for Super1665 Laundromat, in order to market and grow their business. </div>,
       project_link: "https://github.com/rtieu10/super1665-website",
       copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik </a>

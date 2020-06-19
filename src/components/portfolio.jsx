@@ -23,8 +23,8 @@ export default ({portfolioLinks}) => {
                   <div className="col-md-6 col-lg-4 mb-5">
                       <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal">
                           <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            
-                              <div className="portfolio-item-caption-content text-center text-white"> <p> { description } </p>  <a href={project_link}> View Project </a> </div>
+
+                              <div className="portfolio-item-caption-content text-center text-secondary"> <p> { description } </p>  <a href={project_link}> View Project </a> </div>
                           </div>
 
                           <div className="portfolio-caption">
