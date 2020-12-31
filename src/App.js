@@ -11,6 +11,8 @@ import About from './components/about'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import PortfolioList from './components/PortfolioList'
+import Experience from './components/experience'
+import logo from './img/carefree-logo.png'
 //import "css/bootstrap.min.css";
 
 // Modal.setAppElement('#root')
@@ -40,13 +42,11 @@ function App() {
     },
 
     {
-      title: 'Super 1665',
-      subtitle: 'React, JavaScript, HTML, CSS',
-      imgsrc : "https://image.flaticon.com/icons/png/512/2912/2912657.png",
-      description: <div> A website created for Super1665 Laundromat, in order to market and grow their business. </div>,
-      project_link: "https://github.com/rtieu10/super1665-website",
-      copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik </a>
-       from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      title: 'Carefree',
+      subtitle: 'React, TypeScript, HTML, CSS, Redux',
+      imgsrc : {logo}
+      description: <div> A web application that strives to increase accessibility and transparency for young adults who are new to navigating the health care system.</div>,
+      project_link: "https://github.com/rtieu10/carefree"
     },
 
   ]

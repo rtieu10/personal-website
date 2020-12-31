@@ -14,7 +14,7 @@ class Header extends React.Component{
                       <div className="divider-custom-icon"><i className="fa fa-star"></i></div>
                       <div className="divider-custom-line"></div>
                   </div>
-                  <p className="masthead-subheading font-weight-light mb-0">Programmer - Teaching Assistant - Aspiring Designer</p>
+                  <p className="masthead-subheading font-weight-light mb-0">Programmer - Teaching Assistant - Aspiring PM</p>
                   <br/>
                   <br/>
               </div>
