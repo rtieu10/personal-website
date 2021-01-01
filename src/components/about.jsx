@@ -15,7 +15,7 @@ class About extends React.Component{
               </div>
 
               <div className="row">
-                  <div className="col-lg-4 ml-auto"><p className="lead"> I am Rachel Tieu, a junior at Hunter College. I am majoring in Computer Science with a minor in Mathetmatics. This past summer I participated in the New Technologists Program at Microsoft.
+                  <div className="col-lg-4 ml-auto"><p className="lead"> I am Rachel Tieu, a junior at Hunter College. I am majoring in Computer Science with a minor in Mathematics. This past summer I participated in the New Technologists Program at Microsoft.
                                                                          I was previously a fellow at the
                                                                          <a href= "https://www.thewitproject.com/"> WiT Project </a> where I built a web application for YearUp, a non-profit organization, using Python and its frameworks such as Django. </p></div>
                   <div className="col-lg-4 mr-auto"><p className="lead"> Alongside technology, I am also passionate about non-profit work and using technology for social good. Outside of school, I volunteer as a teaching assistant through <a href="https://www.microsoft.com/en-us/teals"> TEALS</a>, a Microsoft philanthropies program.

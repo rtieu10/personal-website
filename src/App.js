@@ -11,7 +11,7 @@ import About from './components/about'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import PortfolioList from './components/PortfolioList'
-import Experience from './components/experience'
+//import Experience from './components/experience'
 import logo from './img/carefree-logo.png'
 //import "css/bootstrap.min.css";
 
@@ -44,9 +44,11 @@ function App() {
     {
       title: 'Carefree',
       subtitle: 'React, TypeScript, HTML, CSS, Redux',
-      imgsrc : {logo}
-      description: <div> A web application that strives to increase accessibility and transparency for young adults who are new to navigating the health care system.</div>,
-      project_link: "https://github.com/rtieu10/carefree"
+      imgsrc : {logo},
+      description: <div> A website that strives to increase transparency and accessibility for young adults who are new to navigating the health care system. </div>,
+      project_link: "https://github.com/rtieu10/carefree",
+      //copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik </a>
+       //from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     },
 
   ]

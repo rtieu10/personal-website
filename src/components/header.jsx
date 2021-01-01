@@ -1,6 +1,6 @@
 import React from 'react';
 import avatar from '../img/avatar.PNG';   //importing image to be used on webpage
-import resume from './Rachel_Tieu-resume.pdf';
+import resume from './RachelTieu-resume.pdf';
 
 class Header extends React.Component{
   render(){
