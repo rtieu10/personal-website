@@ -41,7 +41,7 @@ function App() {
     {
       title: 'Sustainabites',
       subtitle: 'Swift',
-      imgsrc : "https://www.flaticon.com/svg/vstatic/svg/706/706173.svg?token=exp=1610929056~hmac=77652e2210b722311e7806ec7f651337",
+      imgsrc : "https://image.flaticon.com/icons/svg/706/706173.svg",
       description: <div> An iOS app that promotes sustainable living by allowing users to search for recipes that use ingredients they have at home. </div>,
       project_link: "https://github.com/rtieu10/Sustainabites",
       copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
