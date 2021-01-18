@@ -21,16 +21,6 @@ function App() {
   const portfolioLinks =[
 
     {
-      title: 'Python Calculator',
-      subtitle: 'Tkinter GUI, Python',
-      imgsrc : "https://image.flaticon.com/icons/svg/887/887066.svg",
-      description: <div>  A simple four func calculator with an interactive GUI, made with Python and Tkinter</div>,
-      project_link: "https://github.com/rtieu10/simplecalc",
-      copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart </a>
-       from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    },
-
-    {
       title: 'WiT Project',
       subtitle: 'Django, Python, HTML, CSS',
       imgsrc : "https://image.flaticon.com/icons/svg/1508/1508843.svg",
@@ -47,6 +37,16 @@ function App() {
       description: <div> A website that strives to increase accessibility and transparency for young adults who are new to navigating the field of health care.</div>,
       project_link: "https://github.com/rtieu10/carefree",
     },
+
+    {
+      title: 'Sustainabites',
+      subtitle: 'Swift',
+      imgsrc : "https://www.flaticon.com/svg/vstatic/svg/706/706173.svg?token=exp=1610929056~hmac=77652e2210b722311e7806ec7f651337",
+      description: <div> An iOS app that promotes sustainable living by allowing users to search for recipes that use ingredients they have at home. </div>,
+      project_link: "https://github.com/rtieu10/Sustainabites",
+      copyright:<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    }
+
 
   ]
 
